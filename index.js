@@ -2,7 +2,7 @@
 const fs = require("fs");
 
 //Requiring in main module to export function from generateMarkdown.js
-let markdownFunction = require ('./utils/generateMarkdown.js');
+const markdownFunction = require ('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = [

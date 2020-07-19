@@ -1,4 +1,4 @@
-//refrencing APIs here
+//refrencing modules here as constants
 
 
 // array of questions for user
@@ -63,7 +63,7 @@ const questions = [
 
 ];
 
-// function to write README file
+// function to write to README file
 function writeToFile(fileName, data) {
 }
 

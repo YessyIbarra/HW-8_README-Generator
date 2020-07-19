@@ -1,6 +1,48 @@
+//refrencing APIs here
+
+
 // array of questions for user
 const questions = [
+{
+    type: "input",
+    name: "projectTitle",
+    message:"Enter Project Title"
+},
+{
+    type: "input",
+    name: "projectDescription",
+    message:"Enter Project Description"  
+},
+{
+    type: "input",
+    name: "install",
+    message:"Enter Project Installation Steps"  
+},
+{
+    type: "input",
+    name: "usage",
+    message:"Provide Examples of Project Usage"  
+},
+{
+    type: "list",
+    name: "license",
+    message:"Choose a License",
+    choices: [{
+        name: "MIT License",
+        },
+        {
+        name: "GPLv2 License",
+        },
+        {
+        name: "Apache License",
+        },
+        {
+        name: "GPLv3 License"
+        }]
+    },
+{
 
+}
 ];
 
 // function to write README file

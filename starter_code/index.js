@@ -26,7 +26,7 @@ const questions = [
 {
     type: "list",
     name: "license",
-    message:"Choose a License",
+    message:"Choose a License for Project",
     choices: [{
         name: "MIT License",
         },
@@ -41,8 +41,16 @@ const questions = [
         }]
     },
 {
-
+    type:"input",
+    name:"gitHub",
+    message:"Enter GitHub Username",
+},
+{
+    type:"input",
+    name:"email",
+    message:"Enter email address"
 }
+
 ];
 
 // function to write README file

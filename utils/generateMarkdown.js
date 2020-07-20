@@ -5,4 +5,5 @@ function generateMarkdown(data) {
 `;
 }
 
+//module.exports is an object we use to store functions or variables
 module.exports = generateMarkdown;

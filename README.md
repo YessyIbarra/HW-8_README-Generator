@@ -52,7 +52,7 @@ THEN I am taken to the corresponding section of the README
   * Description
   * Table of Contents
   * Installation
-  * Usage
+  * Usage - clone repo to get both JS files and package.json file. Open command window and type in 'instal i'. This will download a package-lock.json file with all dependencies needed for the inquirer package.
   * License
   * Contributing
   * Tests

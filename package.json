@@ -1,14 +1,25 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line application that takes user input to create a good project README",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Yesenia Ibarra",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YessyIbarra/HW-8_README-Generator.git"
+  },
+  "keywords": [
+    "README"
+  ],
+  "bugs": {
+    "url": "https://github.com/YessyIbarra/HW-8_README-Generator/issues"
+  },
+  "homepage": "https://github.com/YessyIbarra/HW-8_README-Generator#readme"
 }

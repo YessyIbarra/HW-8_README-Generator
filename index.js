@@ -1,35 +1,51 @@
 //refrencing modules here as constants
 const fs = require("fs");
+const inquirer = require("inquirer");
 
 //Requiring in main module to export function from generateMarkdown.js
 const markdownFunction = require ("./utils/generateMarkdown.js");
 
+
 // array of questions for user
 const questions = [
+    "Enter Project Title",
+    "Enter Project Description",
+    "Enter Project Installation Steps",
+    "Provide Examples of Project Usage",
+    "Choose a License for Project",
+    "Specify Directions for Contributing to Your Project",
+    "Specify Directions for Testing Your Project",
+    "Enter GitHub Username",
+    "Enter email address"
+];
+
+//Function for prompting user in command line
+function promptUser() {
+    inquirer.prompt ([
     {
         type: "input",
         name: "projectTitle",
-        message: "Enter Project Title"
+        message: questions[0]
     },
     {
         type: "input",
         name: "projectDescription",
-        message: "Enter Project Description"
+        message: questions[1]
     },
     {
         type: "input",
         name: "install",
-        message: "Enter Project Installation Steps"
+        message: questions[2]
     },
     {
         type: "input",
         name: "usage",
-        message: "Provide Examples of Project Usage"
+        message: questions[3]
     },
     {
         type: "list",
         name: "license",
-        message: "Choose a License for Project",
+        message: questions[4],
         choices: [{
             name: "MIT License",
         },
@@ -46,28 +62,32 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Specify Directions for Contributing to Your Project"
+        message: questions[5]
     },
     {
         type: "input",
         name: "testing",
-        message: "Specify Directions for Testing Your Project"
+        message: questions[6]
     },
     {
         type: "input",
         name: "gitHub",
-        message: "Enter GitHub Username",
+        message: questions[7]
     },
     {
         type: "input",
         name: "email",
-        message: "Enter email address"
+        message: questions[8]
     }
+]);
+};
 
-];
+//Checking if it works here
+promptUser();
 
 // function to write to README file
 function writeToFile(fileName, data) {
+    
 }
 
 // function to initialize program

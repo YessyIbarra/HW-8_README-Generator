@@ -79,20 +79,24 @@ function promptUser() {
         name: "email",
         message: questions[8]
     }
-]);
-};
-
-//Checking if it works here
-promptUser();
+]).then(function(responses){
+    console.log(responses);
+});
+}
+ 
+//I need to make user responses into 
+//an object so i can use JSON.stringify and
+//write to README
 
 // function to write to README file
-function writeToFile(fileName, data) {
+//function writeToFile(fileName, responses) {
+   // fs.writeFile('README.md', JSON.stringify(responses)  )
     
-}
+//}
 
 // function to initialize program
 function init() {
-
+    promptUser();
 }
 
 // function call to initialize program

@@ -1,9 +1,8 @@
 //refrencing modules here as constants
 const fs = require("fs");
 const inquirer = require("inquirer");
-
 //Requiring in main module to export function from generateMarkdown.js
-const markdownFunction = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // array of questions for user
@@ -80,11 +79,18 @@ function promptUser() {
             message: questions[8]
         }
     ]).then(function (responses) {
-        console.log(responses);
-        fs.writeFile('newREADME.md', JSON.stringify(responses), function (err) {
-            if (err) return console.log(err);
-            console.log("success");
-        })
+        //console.log(responses);
+    
+        let generateREADME = generateMarkdown(responses);
+        console.log(generateREADME);
+
+        fs.writeFile('newREADME.md', generateREADME , function (err) {
+           
+        if (err) {
+            return console.log(err);
+        }
+            console.log("Success!");
+        });
     });
 }
 

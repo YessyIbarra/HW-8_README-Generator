@@ -1,8 +1,8 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
+function generateMarkdown(responses) {
+  console.log("this function works")
+  return `# ${responses.title}`;
+  
 }
 
 //module.exports is an object we use to store functions or variables

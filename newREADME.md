@@ -14,7 +14,7 @@
   
 
   ## Installation 
-   To install - First fork this repository and type "node index.js" into the command line. You will then be prompted with a series of questions to answer. 
+  To install - first fork this repository and type "node index.js" into the command line. You will then be prompted with a series of questions to answer.
 
 
   ## Usage Information
@@ -22,11 +22,11 @@
 
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
   ## Contribution Guidelines
-  Please Contact me at: someNam123e@gmail.com for contribution guidelines
+  Please contact me at: someNam123e@gmail.com for contribution guidelines
 
   
   ## Test Instructions
@@ -34,5 +34,5 @@
 
   
   ## Questions
-  * GitHub Username - SomeName
-  * Email - someNam123e@gmail.com
+  * GitHub Username - someName
+  * Email - someName123@gmail.com

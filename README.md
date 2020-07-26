@@ -1,35 +1,37 @@
-# README-GENERATOR :computer: 
+# README-GENERATOR  :computer: 
 
 
-## _Description_
+## Description
 
  ```
-This is a command-line application that dynamically generates a professional README from a user's input.
+This is a command-line application that dynamically generates a professional README from user input.
  ```
 
 ![](utils/generator.png)
-README Sample - [README Example](link to same README here)
+  [README Example](https://github.com/YessyIbarra/HW-8_README-Generator/blob/master/newREADME.md) 
 
-## _Table of Contents_
+## Table of Contents
 * [Description](#Description)
 * [Installation](#Installation)
 * [Questions](#Questions)
   
 
-## _Installation_ 
+## Installation 
 
   ```
-  To install - first fork this repository and type "node index.js" into the command/terminal line (once you are in the correct directory). You will then be prompted with a series of questions to answer. 
-  Note: All dependencies are already included so no extra steps are needed.
-  Please view this [step-by-step]() tutorial for more details.
+  To install - first fork this repository and type "node index.js" into the command/terminal line.
+  You will then be prompted with a series of questions to answer. 
+  NOTE: Make sure to start in correct directory before running "node index.js". 
+  All dependencies are already included so no extra steps are needed
+  
+  If needed, please view this [step-by-step](./utils/how-to-video.webm) tutorial for more details.
   ```
 
-## _Questions_
+## Questions
 
-  ```
   * GitHub Username - https://github.com/YessyIbarra
   * Email - yessyibarra17@gmail.com
-  ```
+
 
 
 

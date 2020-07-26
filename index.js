@@ -12,8 +12,8 @@ const questions = [
     "Enter Project Installation Steps",
     "Provide Examples of Project Usage",
     "Choose a License for Project",
-    "Specify Directions for Contributing to Your Project",
-    "Specify Directions for Testing Your Project",
+    "Specify Guidelines for Contributing to Your Project",
+    "Specify Instructions for Testing Your Project",
     "Enter GitHub Username",
     "Enter email address"
 ];
@@ -47,9 +47,6 @@ function promptUser() {
             message: questions[4],
             choices: [{
                 name: "MIT License",
-            },
-            {
-                name: "GPLv2 License",
             },
             {
                 name: "Apache License",

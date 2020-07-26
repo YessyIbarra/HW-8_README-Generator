@@ -2,12 +2,13 @@
 
 
 ## Description
-```
-This is a command-line application that dynamically generates a professional README.md from a user's input.
+
+ ```
+This is a command-line application that dynamically generates a professional README from a user's input.
+ ```
+
 ![](utils/generator.png)
 README Sample - [README Example](link to same README here)
-
-```
 
 ## Table of Contents
 * [Description](#Description)

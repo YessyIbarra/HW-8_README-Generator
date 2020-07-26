@@ -82,7 +82,7 @@ function promptUser() {
         //console.log(responses);
     
         let generateREADME = generateMarkdown(responses);
-        console.log(generateREADME);
+        //console.log(generateREADME);
 
         fs.writeFile('newREADME.md', generateREADME , function (err) {
            

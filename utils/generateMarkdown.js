@@ -1,14 +1,22 @@
 // function to generate markdown for README
 function generateMarkdown(responses) {
   console.log("this function works")
-  if (responses.license === "Apache License"){
-    licenseBadge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+  if (responses.license === "MIT License"){
+    licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
-  else {
+  else if (responses.license === "GPLv2 License"){
+    licenseBadge = ``
+
+  }
+  else if (responses.license === "Apache License"){
+    licenseBadge = ``
+
+  }
+  else if (responses.license === "GPLv3 License"){
+    licenseBadge = ``
 
   };
 
-  //MIT license - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   
     return `# ${responses.projectTitle}
@@ -20,12 +28,12 @@ function generateMarkdown(responses) {
 
 
   ## Table of Contents
-  * [Install](#Installation)
-  * [Usage](#Usage-Information)
+  * [Installation](#Installation)
+  * [Usage Information](#Usage-Information)
   * [License](#License)
   * [Contributing](#Contributing)
   * [Testing](#Testing)
-  * [Contact Info](#Contact-Me)
+  * [Contact Info](#Contact-Information)
   
 
   ## Installation 
@@ -48,7 +56,7 @@ function generateMarkdown(responses) {
   ${responses.testing}
 
   
-  ## Contact Me
+  ## Contact Information
   * GitHub Username: ${responses.gitHub}
   * Email: ${responses.email}`;
 }

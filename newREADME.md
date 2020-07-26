@@ -26,7 +26,7 @@
   
 
   ## Contribution Guidelines
-  Please contact me at: someNam123e@gmail.com for contribution guidelines
+  Please contact me at: someName123e@gmail.com for contribution guidelines
 
   
   ## Test Instructions

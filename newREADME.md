@@ -1,22 +1,20 @@
-# README Generator
+# README-GENERATOR
 
-
-    
   ## Description 
-  This is a command-line application that dynamically generates a professional README.md from a user's input.
+  This is a command-line application that dynamically generates a professional README from a user's input.
 
 
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage Information](#Usage-Information)
   * [License](#License)
-  * [Contributing](#Contributing)
-  * [Testing](#Testing)
-  * [Contact Info](#Contact-Information)
+  * [Contributing](#Contribution-Guidelines)
+  * [Test Instructions](#Test-Instructions)
+  * [Questions](#Questions)
   
 
   ## Installation 
-  First: Fork this repository. Second: Open your terminal and type "node index.js". All dependencies are already included.
+   To install - First fork this repository and type "node index.js" into the command line. You will then be prompted with a series of questions to answer. 
 
 
   ## Usage Information
@@ -24,17 +22,17 @@
 
 
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
 
   ## Contribution Guidelines
-  Please contact me at: yessy@someEmail.com to contribute.
+  Please Contact me at: someNam123e@gmail.com for contribution guidelines
 
   
   ## Test Instructions
   Test as need after forking.
 
   
-  ## Contact Information
-  * GitHub Username - YessyIbarra
-  * Email - yessy@someEmail.com
+  ## Questions
+  * GitHub Username - SomeName
+  * Email - someNam123e@gmail.com

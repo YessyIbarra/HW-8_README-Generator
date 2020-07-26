@@ -24,7 +24,7 @@ This is a command-line application that dynamically generates a professional REA
   NOTE: Make sure to start in correct directory before running "node index.js". 
   All dependencies are already included so no extra steps are needed
   
-  If needed, please view this [step-by-step](./utils/how-to-video.webm) tutorial for more details.
+  If needed, please view this [Step-by-Step Tutorial](https://drive.google.com/file/d/1dXh1Zx_Y93It8SJxxmjIaRBnPoQOXUbQ/view) for more details.
   ```
 
 ## Questions

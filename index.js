@@ -89,7 +89,7 @@ function promptUser() {
         if (err) {
             return console.log(err);
         }
-            console.log("Success!");
+            console.log("Thank you. Your inputs have been successfully logged.");
         });
     });
 }

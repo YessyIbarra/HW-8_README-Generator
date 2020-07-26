@@ -1,11 +1,13 @@
 # 
+
+
     
   ## Description 
   
 
 
   ## Table of Contents
-  * [Install](#Getting-Started)
+  * [Install](#Installation)
   * [Usage](#Usage-Information)
   * [License](#License)
   * [Contributing](#Contributing)
@@ -13,7 +15,7 @@
   * [Contact Info](#Contact-Me)
   
 
-  ## Getting Started 
+  ## Installation 
   
 
 
@@ -22,7 +24,8 @@
 
 
   ## License
-  MIT License
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  Apache License
 
   
   ## Contributing
@@ -34,5 +37,5 @@
 
   
   ## Contact Me
-  
-  
+  * GitHub Username: 
+  * Email: 

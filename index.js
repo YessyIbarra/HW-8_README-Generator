@@ -94,15 +94,6 @@ function promptUser() {
     });
 }
 
-//I need to make user responses into 
-//an object so i can use JSON.stringify and
-//write to README
-
-// function to write to README file
-//function writeToFile(fileName, responses) {
-// fs.writeFile('README.md', JSON.stringify(responses)  )
-
-//}
 
 // function to initialize program
 function init() {

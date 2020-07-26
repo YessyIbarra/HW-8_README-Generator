@@ -1,7 +1,7 @@
-# README-GENERATOR
+# README-GENERATOR :computer: 
 
 
-## Description
+## _Description_
 
  ```
 This is a command-line application that dynamically generates a professional README from a user's input.
@@ -10,21 +10,21 @@ This is a command-line application that dynamically generates a professional REA
 ![](utils/generator.png)
 README Sample - [README Example](link to same README here)
 
-## Table of Contents
+## _Table of Contents_
 * [Description](#Description)
 * [Installation](#Installation)
 * [Questions](#Questions)
   
 
-## Installation 
+## _Installation_ 
 
   ```
-  To install - First fork this repository and type "node index.js" into the command line. You will then be prompted with a series of questions to answer. 
+  To install - first fork this repository and type "node index.js" into the command/terminal line (once you are in the correct directory). You will then be prompted with a series of questions to answer. 
   Note: All dependencies are already included so no extra steps are needed.
   Please view this [step-by-step]() tutorial for more details.
   ```
 
-## Questions
+## _Questions_
 
   ```
   * GitHub Username - https://github.com/YessyIbarra

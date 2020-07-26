@@ -15,7 +15,7 @@ const questions = [
     "Specify Guidelines for Contributing to Your Project",
     "Specify Instructions for Testing Your Project",
     "Enter GitHub Username",
-    "Enter email address"
+    "Enter Email Address"
 ];
 
 //Function for prompting user in command line

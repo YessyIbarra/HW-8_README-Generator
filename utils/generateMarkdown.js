@@ -27,7 +27,7 @@ function generateMarkdown(responses) {
   * [License](#License)
   * [Contributing](#Contribution-Guidelines)
   * [Test Instructions](#Test-Instructions)
-  * [Contact Info](#Contact-Information)
+  * [Questions](#Questions)
   
 
   ## Installation 
@@ -50,7 +50,7 @@ function generateMarkdown(responses) {
   ${responses.testing}
 
   
-  ## Contact Information
+  ## Questions
   * GitHub Username - ${responses.gitHub}
   * Email - ${responses.email}`;
 }
